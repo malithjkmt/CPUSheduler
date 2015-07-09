@@ -50,15 +50,15 @@ public class STS implements Runnable{
 
     @Override
     public void run(){
-       // while(true){
+        while(true){
             
             if(readyQueue.isEmpty()){
-                System.out.println("ready que is empty!!");
+                
             }
             else{
                 chosenProcess = readyQueue.dequeue();
                 cpu.dispatch(chosenProcess);
-                System.out.println("the chosen process is dispatched to the CPU at "+stopwatch);
+                System.out.println("the chosen process "+chosenProcess.getName()+" is dispatched to the CPU at "+stopwatch);
                 cpu.execute();
 
 
@@ -68,12 +68,15 @@ public class STS implements Runnable{
                     stopwatch+=chosenProcess.getTimeSlice();
                     //preempt the running process 
                     preemptedProcess = cpu.preempt();
-                    System.out.println("the running process is reempted at "+stopwatch);
+                    System.out.println("the running process "+preemptedProcess.getName()+" is preempted at "+stopwatch+"s");
                     
                     // add the preempted process in to the ready queue if there is remainig service time to do, else relese the process
                     if(preemptedProcess.getRemainingServiceTime() > 0){
                         readyQueue.enqueue(preemptedProcess);
-                        System.out.println("the running process is reempted back to the ready Queue at "+stopwatch);
+                        System.out.println("the preempted process "+preemptedProcess.getName()+" is enqueed backck to the ready Queue at "+stopwatch+"s");
+                    }
+                    else{
+                        System.out.println("the preempted process "+preemptedProcess.getName()+" is relesed  at "+stopwatch+"s");
                     }
                     
 
@@ -82,7 +85,7 @@ public class STS implements Runnable{
                 }         
 
             }
-       // }
+        }
     }
     
     

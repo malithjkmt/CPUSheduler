@@ -16,11 +16,9 @@ public class Tmain {
 
    
     public static void main(String[] args){
-        Process a = new Process(0, 3, 1);
-        Process b = new Process(2, 6, 1);
+        
         ProcessQueue t = new ProcessQueue();
-        t.enqueue(a);
-        t.enqueue(b);
+       
         boolean dt = t.isEmpty();
         t.dequeue();
         t.dequeue();

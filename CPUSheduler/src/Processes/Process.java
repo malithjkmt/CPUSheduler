@@ -10,19 +10,25 @@ package Processes;
  * @author Malith
  */
 public  class Process {
+    String name;
     final long arrivalTime;
     final long serviceTime;
     long timeSlice;
     long remainingServiceTime;
     
 
-    public Process(long arrivalTime, long serviceTime, long timeSlice) {
+    public Process(long arrivalTime, long serviceTime, long timeSlice, String name) {
         this.arrivalTime = arrivalTime;
         this.serviceTime = serviceTime;
         this.timeSlice = timeSlice;
         this.remainingServiceTime = serviceTime;
+        this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+    
     public long getTimeSlice() {
         return timeSlice;
     }

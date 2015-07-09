@@ -25,11 +25,21 @@ public class CPUsheduler {
         long stopwatch = 0;
         
         ArrayList<Process> processList =new ArrayList<>();
-        Process a = new Process(0, 3, 1);
-        Process b = new Process(2, 6, 1);
+        Process a = new Process(0, 3, 1,"a");
+        Process b = new Process(2, 6, 1,"b");
+        Process c = new Process(4, 4, 1,"c");
+        Process d = new Process(6, 5, 1,"d");
+        Process e = new Process(8, 2, 1,"e");
+       
+        
         
         processList.add(a);
         processList.add(b);
+        processList.add(c);
+        processList.add(d);
+        processList.add(e);
+    
+        
         
         CPU cpu= new CPU();
         MainMemmory mainMemmory = new MainMemmory();

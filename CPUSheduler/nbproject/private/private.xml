@@ -3,13 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/G:/MORA/Aca/SEM3/OS/project/JavaApplication13/src/app/CPUsheduler.java</file>
-            <file>file:/G:/MORA/Aca/SEM3/OS/project/JavaApplication13/src/computer/MainMemmory.java</file>
-            <file>file:/G:/MORA/Aca/SEM3/OS/project/JavaApplication13/src/computer/CPU.java</file>
-            <file>file:/G:/MORA/Aca/SEM3/OS/project/JavaApplication13/src/Test/Test.java</file>
-            <file>file:/G:/MORA/Aca/SEM3/OS/project/JavaApplication13/src/Sheduler/STS.java</file>
-            <file>file:/G:/MORA/Aca/SEM3/OS/project/JavaApplication13/src/Processes/Process.java</file>
-            <file>file:/G:/MORA/Aca/SEM3/OS/project/JavaApplication13/src/Sheduler/Dispatcher.java</file>
+            <file>file:/G:/MORA/Aca/SEM3/OS/project/Os/CPUSheduler/src/app/CPUsheduler.java</file>
+            <file>file:/G:/MORA/Aca/SEM3/OS/project/Os/CPUSheduler/src/Sheduler/STS.java</file>
+            <file>file:/G:/MORA/Aca/SEM3/OS/project/Os/CPUSheduler/src/computer/CPU.java</file>
+            <file>file:/G:/MORA/Aca/SEM3/OS/project/Os/CPUSheduler/src/computer/MainMemmory.java</file>
+            <file>file:/G:/MORA/Aca/SEM3/OS/project/Os/CPUSheduler/src/Processes/Process.java</file>
+            <file>file:/G:/MORA/Aca/SEM3/OS/project/Os/CPUSheduler/src/Sheduler/Dispatcher.java</file>
         </group>
     </open-files>
 </project-private>

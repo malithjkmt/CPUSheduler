@@ -2,6 +2,7 @@ package computer;
 
 
 import Processes.Process;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 /*
@@ -15,31 +16,39 @@ import java.util.Queue;
  * @author Malith
  */
 public class MainMemmory {
-    private Queue<Processes.Process> readyQueue;
-    private Queue<Processes.Process> Auxiliary;
-    private Queue<Processes.Process> IoWaiting;
+    
+    private ProcessQueue readyQueue = null;
+    private ProcessQueue Auxiliary = null;
+    private ProcessQueue IoWaiting = null;
 
-    public Queue<Process> getReadyQueue() {
+    public MainMemmory() {
+        this.readyQueue = new ProcessQueue();
+        this.Auxiliary  = new ProcessQueue();
+        this.IoWaiting  = new ProcessQueue();
+    }
+
+    
+    public synchronized ProcessQueue getReadyQueue() {
         return readyQueue;
     }
 
-    public Queue<Process> getAuxiliary() {
+    public ProcessQueue getAuxiliary() {
         return Auxiliary;
     }
 
-    public Queue<Process> getIoWaiting() {
+    public ProcessQueue getIoWaiting() {
         return IoWaiting;
     }
 
-    public void setReadyQueue(Queue<Process> readyQueue) {
+    public void  setReadyQueue(ProcessQueue readyQueue) { //// work on threds!!!!!!!!!!!!
         this.readyQueue = readyQueue;
     }
 
-    public void setAuxiliary(Queue<Process> Auxiliary) {
+    public void setAuxiliary(ProcessQueue Auxiliary) {
         this.Auxiliary = Auxiliary;
     }
 
-    public void setIoWaiting(Queue<Process> IoWaiting) {
+    public void setIoWaiting(ProcessQueue IoWaiting) {
         this.IoWaiting = IoWaiting;
     }
     

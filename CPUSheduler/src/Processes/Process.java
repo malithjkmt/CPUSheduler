@@ -10,31 +10,32 @@ package Processes;
  * @author Malith
  */
 public  class Process {
-    final int arrivalTime;
-    final int serviceTime;
-    float timeSlice;
-    float remainingServiceTime;
+    final long arrivalTime;
+    final long serviceTime;
+    long timeSlice;
+    long remainingServiceTime;
+    
 
-    public Process(int arrivalTime, int serviceTime, float timeSlice) {
+    public Process(long arrivalTime, long serviceTime, long timeSlice) {
         this.arrivalTime = arrivalTime;
         this.serviceTime = serviceTime;
         this.timeSlice = timeSlice;
         this.remainingServiceTime = serviceTime;
     }
 
-    public float getTimeSlice() {
+    public long getTimeSlice() {
         return timeSlice;
     }
 
-    public void setTimeSlice(float timeSlice) {
-        this.timeSlice = timeSlice;
+    public long getRemainingServiceTime() {
+        return remainingServiceTime;
     }
 
-    public void setRemainingServiceTime(float remainingServiceTime) {
-        this.remainingServiceTime = remainingServiceTime;
+    public long getArrivalTime() {
+        return arrivalTime;
     }
-    
-    public void decrementServiceTime(){
+    public void runProcess(){
         remainingServiceTime -=timeSlice;
+        
     }
 }

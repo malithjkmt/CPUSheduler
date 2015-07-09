@@ -13,12 +13,15 @@ public class CPU {
         return runningProcess;
     }
 
-    public void setRunningProcess(Process runningProcess) {
-        this.runningProcess = runningProcess;
+    public void dispatch(Process process) {
+        this.runningProcess = process;
     }
     
-    public void runProcess(){
-        runningProcess.decrementServiceTime();
+    public void execute(){
+        runningProcess.runProcess();
+    }
+    public Process preempt(){
+        return runningProcess;
     }
       
 }

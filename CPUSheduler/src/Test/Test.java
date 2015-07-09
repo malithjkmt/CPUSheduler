@@ -5,6 +5,11 @@
  */
 package Test;
 
+import com.google.common.base.Stopwatch;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author Malith
@@ -16,6 +21,13 @@ public class Test extends javax.swing.JFrame {
      */
     public Test() {
         initComponents();
+        Stopwatch stopwatch = Stopwatch.createStarted();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException ex) {
+            System.out.println(stopwatch.elapsed(TimeUnit.SECONDS));
+            System.out.println("hjjhkj");
+        }
     }
 
     /**
@@ -96,6 +108,7 @@ public class Test extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Test().setVisible(true);
+                
             }
         });
     }

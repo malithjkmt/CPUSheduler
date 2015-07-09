@@ -6,42 +6,90 @@
 package Sheduler;
 
 import Processes.Process;
+import com.google.common.base.Stopwatch;
 import computer.CPU;
 import computer.MainMemmory;
+import computer.ProcessQueue;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.concurrent.TimeUnit;
+
 
 //  STS = Short Time Sheduler
 /**
  *
  * @author Malith
  */
-public class STS {
+public class STS implements Runnable{
     
     ArrayList<Process> processList;
     CPU cpu;
-    MainMemmory mainMemmory;
+     
+    ProcessQueue readyQueue;
+    ProcessQueue Auxiliary;
+    ProcessQueue IoWaiting;
     
-    Dispatcher dispatcher= new Dispatcher();
+    long stopwatch;
 
-    public STS(ArrayList<Process> processList, CPU cpu, MainMemmory mainMemmory) {
+    Process runningProcess = null;
+    
+    Process chosenProcess = null;
+     Process preemptedProcess;
+   
+    
+    public STS(ArrayList<Process> processList, CPU cpu, MainMemmory mainMemmory, long stopwatch) {
         this.processList = processList;
         this.cpu = cpu;
-        this.mainMemmory = mainMemmory;
+        this.readyQueue = mainMemmory.getReadyQueue();
+        this.IoWaiting = mainMemmory.getIoWaiting();
+        this.Auxiliary = mainMemmory.getAuxiliary();
+        this.runningProcess = cpu.getRunningProcess();
+        this.stopwatch = stopwatch;
+    }
+
+    @Override
+    public void run(){
+       // while(true){
+            
+            if(readyQueue.isEmpty()){
+                System.out.println("ready que is empty!!");
+            }
+            else{
+                chosenProcess = readyQueue.dequeue();
+                cpu.dispatch(chosenProcess);
+                System.out.println("the chosen process is dispatched to the CPU at "+stopwatch);
+                cpu.execute();
+
+
+                // wait before preempting the running process
+                try {
+                    Thread.sleep((long) chosenProcess.getTimeSlice()*1000); // 1000 because of sleep() takes milliseconds.   
+                    stopwatch+=chosenProcess.getTimeSlice();
+                    //preempt the running process 
+                    preemptedProcess = cpu.preempt();
+                    System.out.println("the running process is reempted at "+stopwatch);
+                    
+                    // add the preempted process in to the ready queue if there is remainig service time to do, else relese the process
+                    if(preemptedProcess.getRemainingServiceTime() > 0){
+                        readyQueue.enqueue(preemptedProcess);
+                        System.out.println("the running process is reempted back to the ready Queue at "+stopwatch);
+                    }
+                    
+
+                } catch (InterruptedException ex) {
+                    System.out.println("interrupted"); //continue sending new processes to the ready queue
+                }         
+
+            }
+       // }
     }
     
+    
+    
+
+    
+    
  
-    public void shedule(){
-        for (Process process : processList) {
-            dispatcher.switchContex(process,cpu, mainMemmory);
-            cpu.runProcess();
-                   
-            try {
-                Thread.sleep((long) process.getTimeSlice()*1000);
-            } catch (InterruptedException ex) {
-                Logger.getLogger(STS.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        }
-    }
+    
 }

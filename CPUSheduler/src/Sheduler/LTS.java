@@ -43,6 +43,7 @@ public class LTS implements Runnable {
                 stopwatch+=interval;
                 //release the new process to the ready queue
                 readyQueue.enqueue(process);
+                
                 System.out.println("a new process "+process.getName()+" is added to the ready Queue at "+stopwatch+"s");
             
             } catch (InterruptedException ex) {
@@ -50,5 +51,5 @@ public class LTS implements Runnable {
             }   
         }
         
-    }
+    }   
 }

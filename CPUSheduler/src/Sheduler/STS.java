@@ -14,6 +14,8 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 //  STS = Short Time Sheduler
@@ -36,6 +38,8 @@ public class STS implements Runnable{
     
     Process chosenProcess = null;
      Process preemptedProcess;
+     Process blockedProcess;
+     long nextCPUtime;
    
     
     public STS(ArrayList<Process> processList, CPU cpu, MainMemmory mainMemmory, long stopwatch) {
@@ -46,43 +50,87 @@ public class STS implements Runnable{
         this.Auxiliary = mainMemmory.getAuxiliary();
         this.runningProcess = cpu.getRunningProcess();
         this.stopwatch = stopwatch;
+       
     }
 
     @Override
     public void run(){
+        while(readyQueue.isEmpty()){
+           
+        }
         while(true){
-            
+           
             if(readyQueue.isEmpty()){
-                
+                try {
+                    
+                    Thread.sleep(1000); // 1000 is the time slice
+                    stopwatch++;
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(STS.class.getName()).log(Level.SEVERE, null, ex);
+                }
             }
             else{
+                
+                System.out.println("");
                 chosenProcess = readyQueue.dequeue();
                 cpu.dispatch(chosenProcess);
                 System.out.println("the chosen process "+chosenProcess.getName()+" is dispatched to the CPU at "+stopwatch);
-                cpu.execute();
+                
 
+                nextCPUtime = chosenProcess.getNextCPUtime(stopwatch); // get the time, the proces will be in the CPU (always less than or equal to time slice)
+                cpu.execute(nextCPUtime, chosenProcess);
+                // if this chosen process will get blocked due to an IO request after dispatching
+                if(chosenProcess.isIOhappens()){
+                     // wait before blocking the running process (no more than a timeslice)
+                    try {
+                        Thread.sleep((long) nextCPUtime*1000); // 1000 because of sleep() takes milliseconds.   
+                        stopwatch+=nextCPUtime;                 
 
-                // wait before preempting the running process
-                try {
-                    Thread.sleep((long) chosenProcess.getTimeSlice()*1000); // 1000 because of sleep() takes milliseconds.   
-                    stopwatch+=chosenProcess.getTimeSlice();
+                    } catch (InterruptedException ex) {
+                        System.out.println("interrupted"); //continue sending new processes to the ready queue
+                    } 
+                     //block the running process 
+                    blockedProcess = cpu.block();
+                    System.out.println("the running process "+blockedProcess.getName()+" is blocked at "+stopwatch+"s");
+                    
+                     // add the blocked process in to the IO queue 
+                    IoWaiting.enqueue(blockedProcess);
+                    System.out.println("the blocked process "+blockedProcess.getName()+" is enqueed to the IO Queue at "+stopwatch+"s");
+                    
+
+                }
+                // if this chosen process will get preempted, without being blocked dueto an IO request after dispatching
+                else{
+                    
+                    // wait before preempting the running process
+                    try {
+                        Thread.sleep((long) chosenProcess.getTimeSlice()*1000); // 1000 because of sleep() takes milliseconds.   
+                        stopwatch+=chosenProcess.getTimeSlice();                 
+
+                    } catch (InterruptedException ex) {
+                        System.out.println("interrupted"); //continue sending new processes to the ready queue
+                    } 
                     //preempt the running process 
                     preemptedProcess = cpu.preempt();
                     System.out.println("the running process "+preemptedProcess.getName()+" is preempted at "+stopwatch+"s");
-                    
+
                     // add the preempted process in to the ready queue if there is remainig service time to do, else relese the process
-                    if(preemptedProcess.getRemainingServiceTime() > 0){
+                    if(preemptedProcess.getNextCPUtime(stopwatch)> 0){
+                      
                         readyQueue.enqueue(preemptedProcess);
                         System.out.println("the preempted process "+preemptedProcess.getName()+" is enqueed backck to the ready Queue at "+stopwatch+"s");
                     }
                     else{
-                        System.out.println("the preempted process "+preemptedProcess.getName()+" is relesed  at "+stopwatch+"s");
+                        System.out.println("the preempted process "+preemptedProcess.getName()+" is released at "+stopwatch+"s");
                     }
                     
-
-                } catch (InterruptedException ex) {
-                    System.out.println("interrupted"); //continue sending new processes to the ready queue
-                }         
+                }
+                
+                
+                
+                
+                
+               
 
             }
         }

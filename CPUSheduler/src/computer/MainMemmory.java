@@ -17,9 +17,9 @@ import java.util.Queue;
  */
 public class MainMemmory {
     
-    private ProcessQueue readyQueue = null;
+    private  ProcessQueue readyQueue = null;
     private ProcessQueue Auxiliary = null;
-    private ProcessQueue IoWaiting = null;
+    private  ProcessQueue IoWaiting = null;
 
     public MainMemmory() {
         this.readyQueue = new ProcessQueue();
@@ -27,29 +27,27 @@ public class MainMemmory {
         this.IoWaiting  = new ProcessQueue();
     }
 
+  /*  public synchronized void EnqueueToReadyQueue(Process process){
+        readyQueue.enqueue(process);
+    }
+    public synchronized void EnqueueToIOwaitingQueue(Process process){
+        IoWaiting.enqueue(process);
+    }*/
     
     public synchronized ProcessQueue getReadyQueue() {
         return readyQueue;
     }
-
+    
     public ProcessQueue getAuxiliary() {
         return Auxiliary;
     }
 
-    public ProcessQueue getIoWaiting() {
+    public synchronized ProcessQueue getIoWaiting() {
         return IoWaiting;
-    }
+    }  
 
-    public void  setReadyQueue(ProcessQueue readyQueue) { //// work on threds!!!!!!!!!!!!
+    public void setReadyQueue(ProcessQueue readyQueue) {
         this.readyQueue = readyQueue;
-    }
-
-    public void setAuxiliary(ProcessQueue Auxiliary) {
-        this.Auxiliary = Auxiliary;
-    }
-
-    public void setIoWaiting(ProcessQueue IoWaiting) {
-        this.IoWaiting = IoWaiting;
     }
     
     

@@ -17,13 +17,14 @@ public class ProcessQueue{
     }
     
   
-    public void enqueue(Process process){
+    public synchronized void enqueue(Process process){
         queue.add(process);
+        //can get the name of the queue (r, I, A) and call Chanaka's class's method
     }
-    public Process dequeue(){
+    public synchronized Process dequeue(){
         return queue.remove();
     }
-    public boolean isEmpty(){
-        return queue.isEmpty();
+    public synchronized boolean isEmpty(){
+        return queue.size()==0;
     }
 }

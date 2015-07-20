@@ -17,10 +17,15 @@ public class CPU {
         this.runningProcess = process;
     }
     
-    public void execute(){
-        runningProcess.runProcess();
+    public void execute(long nextCPUtime, Process process){
+        runningProcess.runProcess(nextCPUtime);
+        //chankasClass.CPUgrid.stopColoringCurrentProcess(process.name);
+        //chankasClass.CPUgrid.StartColoring(process.name);
     }
     public Process preempt(){
+        return runningProcess;
+    }
+    public Process block(){
         return runningProcess;
     }
       

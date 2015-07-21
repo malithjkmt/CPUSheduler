@@ -32,17 +32,17 @@ public class STS implements Runnable{
     ProcessQueue Auxiliary;
     ProcessQueue IoWaiting;
     
-    long stopwatch;
+    double stopwatch;
 
     Process runningProcess = null;
     
     Process chosenProcess = null;
      Process preemptedProcess;
      Process blockedProcess;
-     long nextCPUtime;
+     double nextCPUtime;
    
     
-    public STS(ArrayList<Process> processList, CPU cpu, MainMemmory mainMemmory, long stopwatch) {
+    public STS(ArrayList<Process> processList, CPU cpu, MainMemmory mainMemmory, double stopwatch) {
         this.processList = processList;
         this.cpu = cpu;
         this.readyQueue = mainMemmory.getReadyQueue();
@@ -60,7 +60,7 @@ public class STS implements Runnable{
         }
         while(true){
            
-            if(readyQueue.isEmpty()){
+            if(readyQueue.isEmpty() && Auxiliary.isEmpty()){
                 try {
                     
                     Thread.sleep(1000); // 1000 is the time slice
@@ -72,18 +72,24 @@ public class STS implements Runnable{
             else{
                 
                 System.out.println("");
-                chosenProcess = readyQueue.dequeue();
+                if(!Auxiliary.isEmpty()){chosenProcess = Auxiliary.dequeue();}
+                else{ chosenProcess = readyQueue.dequeue();}
+                
                 cpu.dispatch(chosenProcess);
                 System.out.println("the chosen process "+chosenProcess.getName()+" is dispatched to the CPU at "+stopwatch);
                 
 
                 nextCPUtime = chosenProcess.getNextCPUtime(stopwatch); // get the time, the proces will be in the CPU (always less than or equal to time slice)
+                System.out.println(nextCPUtime+"*******************");
+                
                 cpu.execute(nextCPUtime, chosenProcess);
+                
+                
                 // if this chosen process will get blocked due to an IO request after dispatching
                 if(chosenProcess.isIOhappens()){
                      // wait before blocking the running process (no more than a timeslice)
                     try {
-                        Thread.sleep((long) nextCPUtime*1000); // 1000 because of sleep() takes milliseconds.   
+                        Thread.sleep((long) (nextCPUtime*1000)); // 1000 because of sleep() takes milliseconds.   
                         stopwatch+=nextCPUtime;                 
 
                     } catch (InterruptedException ex) {
@@ -99,13 +105,14 @@ public class STS implements Runnable{
                     
 
                 }
+                
                 // if this chosen process will get preempted, without being blocked dueto an IO request after dispatching
                 else{
                     
                     // wait before preempting the running process
                     try {
-                        Thread.sleep((long) chosenProcess.getTimeSlice()*1000); // 1000 because of sleep() takes milliseconds.   
-                        stopwatch+=chosenProcess.getTimeSlice();                 
+                        Thread.sleep((long) (nextCPUtime*1000)); // 1000 because of sleep() takes milliseconds.   
+                        stopwatch+=nextCPUtime;                 
 
                     } catch (InterruptedException ex) {
                         System.out.println("interrupted"); //continue sending new processes to the ready queue

@@ -2,12 +2,21 @@ package computer;
 
 
 import Processes.Process;
+import app.OSGUI;
 /**
  *
  * @author Malith
  */
 public class CPU {
       private Process runningProcess;
+      OSGUI gui;
+      
+    public CPU(OSGUI gui) {
+       this.gui = gui;
+    }
+
+    public CPU() {
+    }
 
     public Process getRunningProcess() {
         return runningProcess;
@@ -17,9 +26,12 @@ public class CPU {
         this.runningProcess = process;
     }
     
-    public void execute(long nextCPUtime, Process process){
+    public void execute(double nextCPUtime, Process process){
         runningProcess.runProcess(nextCPUtime);
-        //chankasClass.CPUgrid.stopColoringCurrentProcess(process.name);
+        
+        
+        
+       // gui.Display(process.getName(), (int) nextCPUtime);
         //chankasClass.CPUgrid.StartColoring(process.name);
     }
     public Process preempt(){

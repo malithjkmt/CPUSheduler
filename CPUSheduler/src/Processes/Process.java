@@ -10,37 +10,40 @@ package Processes;
  * @author Malith
  */
 public  class Process {
-    String name;
-    final long arrivalTime;
-    final long serviceTime;
-    long timeSlice;
-    long remainingServiceTime;
+    int index;
+    final double arrivalTime;
+    final double serviceTime;
+    final double initialTimeSlice;
+    double timeSlice;
+    double remainingServiceTime;
     
-    long IORequestTime =10000; //  time after arrival which the process request an IO 
-    long IOCostTime; // time duration that takes to get the IO request
+    double IORequestTime =10000; //  time after arrival which the process request an IO 
+    double IOCostTime; // time duration that takes to get the IO request
     boolean IOhappens; // this will be tue if this process will blocked due to an IO request before timeout.
-    long totalCPUburst = 0;
+    double totalCPUburst = 0;
     boolean hasIOrequest;
 
    
-    public Process(long arrivalTime, long serviceTime, long timeSlice, String name) {
+    public Process(double arrivalTime, double serviceTime, double timeSlice, int index) {
         this.arrivalTime = arrivalTime;
         this.serviceTime = serviceTime;
         this.timeSlice = timeSlice;
+        this.initialTimeSlice = timeSlice;
         this.remainingServiceTime = serviceTime;
-        this.name = name;
+        this.index = index;
         hasIOrequest = false;
         IOhappens = false;
     }
     
     // If user inputs an IO bound process
-    public Process(long arrivalTime, long serviceTime, long timeSlice, String name, long IORequestTime, long IOCompetionTime) {
+    public Process(double arrivalTime, double serviceTime, double timeSlice, int index, double IORequestTime, double IOCompetionTime) {
         System.out.println("******************************");
         this.arrivalTime = arrivalTime;
         this.serviceTime = serviceTime;
         this.timeSlice = timeSlice;
+        this.initialTimeSlice = timeSlice;
         this.remainingServiceTime = serviceTime;
-        this.name = name;
+        this.index = index;
         
         hasIOrequest = true;
         this.IORequestTime = IORequestTime;
@@ -53,11 +56,11 @@ public  class Process {
         this.IOhappens = IOhappens;
     }
 
-    public long getIOCostTime() {
+    public double getIOCostTime() {
         return IOCostTime;
     }
     
-    public synchronized long getRemainingServiceTime() {
+    public synchronized double getRemainingServiceTime() {
         return remainingServiceTime;
     }
     
@@ -66,35 +69,54 @@ public  class Process {
     }
     
     
-    public synchronized String getName() {
-        return name;
+    public synchronized int getName() {
+        return index;
+    }
+
+    public void setTimeSlice(double timeSlice) {
+        this.timeSlice = timeSlice;
     }
     
-    public synchronized long getTimeSlice() {
+    public synchronized double getTimeSlice() {
         return timeSlice;
     }
 
   
 
-    public synchronized long getArrivalTime() {
+    public synchronized double getArrivalTime() {
         return arrivalTime;
     }
-    public void runProcess(long nextCPUtime){
+    public void runProcess(double nextCPUtime){
         remainingServiceTime -=nextCPUtime;  
         totalCPUburst+=nextCPUtime;
     }
-   public synchronized long getNextCPUtime(long stopwatch){
-       
-        long timeSpent = stopwatch- arrivalTime; // (cpu burst + io burst)
-        long DueTimeToIORequest = IORequestTime - totalCPUburst; // the remainig time before the IO request happens
-       
+    
+    //get the time period that the process will be in the CPU next
+   public synchronized double getNextCPUtime(double stopwatch){
+        if(timeSlice != initialTimeSlice){
+            setIOhappens(false);
+            double temp = timeSlice;
+            timeSlice = initialTimeSlice;
+            return temp;
+        }
+        double timeSpent = stopwatch- arrivalTime; // (cpu burst + io burst)
+        double DueTimeToIORequest = IORequestTime - totalCPUburst; // the remainig time before the IO request happens
+        
+        
+        // if the process's service time is over in between the next timeslice
+        if(remainingServiceTime<timeSlice){
+            setIOhappens(false);//??? do I need this
+            return remainingServiceTime;
+        }
         // if the process will be blocked before being timeout
-        if(hasIOrequest && ((IORequestTime + arrivalTime-stopwatch)>=0)){// watchout when using auxiliry queue 
+        if(hasIOrequest && IORequestTime > totalCPUburst && DueTimeToIORequest <= timeSlice){// watchout when using auxiliry queue 
             setIOhappens(true);
+            timeSlice = DueTimeToIORequest;
             return DueTimeToIORequest;
         }
         else if(remainingServiceTime>0){
             setIOhappens(false);
+            timeSlice = initialTimeSlice;
             return timeSlice;
         }
         return 0;
@@ -104,7 +126,7 @@ public  class Process {
         return hasIOrequest;
     }
 
-    public long getIORequestTime() {
+    public double getIORequestTime() {
         return IORequestTime;
     }
 

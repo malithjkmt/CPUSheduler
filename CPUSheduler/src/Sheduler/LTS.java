@@ -18,9 +18,9 @@ public class LTS implements Runnable {
     ArrayList<Processes.Process> processList;
     ProcessQueue readyQueue;
     MainMemmory mainMemmory;
-    long interval = 0;
-    long stopwatch;   
-    public LTS(ArrayList<Process> processList, MainMemmory mainMemmory, long stopwatch) {
+    double interval = 0;
+    double stopwatch;   
+    public LTS(ArrayList<Process> processList, MainMemmory mainMemmory, double stopwatch) {
         this.processList = processList;
         this.readyQueue = mainMemmory.getReadyQueue();
         this.mainMemmory = mainMemmory;
@@ -39,7 +39,7 @@ public class LTS implements Runnable {
             
             // wait before releasing the new process
             try {
-                Thread.sleep((long) interval*1000); // 1000 because of sleep() takes milliseconds.   
+                Thread.sleep((long) (interval*1000)); // 1000 because of sleep() takes milliseconds.   
                 stopwatch+=interval;
                 //release the new process to the ready queue
                 readyQueue.enqueue(process);

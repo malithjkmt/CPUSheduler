@@ -15,14 +15,18 @@ import computer.MainMemmory;
 public class IOhandler implements Runnable{
     ProcessQueue readyQueue;
     ProcessQueue IoWaiting;
-    long stopwatch;
+    ProcessQueue auxiliary;
+    
+    double stopwatch;
     Process chosenProcess;
-    long blockingPeriod;
+    double blockingPeriod;
     
 
-    public IOhandler(MainMemmory mainMemmory, long stopwatch) {
+    public IOhandler(MainMemmory mainMemmory, double stopwatch) {
         this.readyQueue = mainMemmory.getReadyQueue();
         this.IoWaiting = mainMemmory.getIoWaiting();
+        this.auxiliary = mainMemmory.getAuxiliary();
+        
         this.stopwatch = stopwatch;
         
     }
@@ -39,16 +43,16 @@ public class IOhandler implements Runnable{
                 
                  // wait until IOrequest complete
                 try {
-                    Thread.sleep((long) blockingPeriod*1000); // 1000 because of sleep() takes milliseconds.              
+                    Thread.sleep((long) (blockingPeriod*1000)); // 1000 because of sleep() takes milliseconds.              
 
                 } catch (InterruptedException ex) {
                     System.out.println("interrupted"); //continue sending new processes to the ready queue
                 } 
                
                 // transfer the IO request gained process to the ready queue
-                readyQueue.enqueue(chosenProcess);
-               
-                System.out.println("the blocked process "+chosenProcess.getName()+" is sent to the rrrready queue at "+stopwatch+"s");
+               // readyQueue.enqueue(chosenProcess);
+                auxiliary.enqueue(chosenProcess);
+                System.out.println("the blocked process "+chosenProcess.getName()+" is sent to the Auxiliary queue at "+stopwatch+"s");
             }
             else{}
             

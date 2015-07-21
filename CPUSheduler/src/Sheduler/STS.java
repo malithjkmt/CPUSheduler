@@ -80,7 +80,7 @@ public class STS implements Runnable{
                 
 
                 nextCPUtime = chosenProcess.getNextCPUtime(stopwatch); // get the time, the proces will be in the CPU (always less than or equal to time slice)
-                System.out.println(nextCPUtime+"*******************");
+              //  System.out.println(nextCPUtime+"*******************");
                 
                 cpu.execute(nextCPUtime, chosenProcess);
                 

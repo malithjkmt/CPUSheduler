@@ -3,13 +3,9 @@ package Sheduler;
 import Processes.Process;
 import computer.MainMemmory;
 import java.util.ArrayList;
-import java.util.Queue;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import com.google.common.base.Stopwatch;
+
 import computer.ProcessQueue;
-import java.util.PriorityQueue;
-import java.util.concurrent.TimeUnit;
+
 /**
  *
  * @author Malith

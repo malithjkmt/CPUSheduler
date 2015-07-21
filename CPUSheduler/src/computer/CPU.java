@@ -31,7 +31,8 @@ public class CPU {
         
         
         
-       // gui.Display(process.getName(), (int) nextCPUtime);
+        gui.Display(process.getName(), (int) nextCPUtime);
+        System.out.println(process.getName() + "*************************"+ (int)nextCPUtime);
         //chankasClass.CPUgrid.StartColoring(process.name);
     }
     public Process preempt(){

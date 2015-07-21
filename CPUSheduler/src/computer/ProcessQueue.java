@@ -19,6 +19,7 @@ public class ProcessQueue{
   
     public synchronized void enqueue(Process process){
         queue.add(process);
+        //System.out.println(process.getName() + " " + process.getRemainingServiceTime() + "---------------");
         //can get the name of the queue (r, I, A) and call Chanaka's class's method
     }
     public synchronized Process dequeue(){

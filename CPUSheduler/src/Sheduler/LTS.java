@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 import computer.ProcessQueue;
 
+
 /**
  *
  * @author Malith
@@ -14,17 +15,19 @@ public class LTS implements Runnable {
     ArrayList<Processes.Process> processList;
     ProcessQueue readyQueue;
     MainMemmory mainMemmory;
-    double interval = 0;
-    double stopwatch;   
-    public LTS(ArrayList<Process> processList, MainMemmory mainMemmory, double stopwatch) {
+    int interval = 0;
+    int stopwatch; 
+    int factor = 1;
+    public LTS(ArrayList<Process> processList, MainMemmory mainMemmory, int stopwatch, int factor) {
         this.processList = processList;
         this.readyQueue = mainMemmory.getReadyQueue();
         this.mainMemmory = mainMemmory;
         this.stopwatch = stopwatch;
+        this.factor = factor;
     }
     
    
-
+    
     @Override
     public void run() {
         
@@ -35,10 +38,12 @@ public class LTS implements Runnable {
             
             // wait before releasing the new process
             try {
-                Thread.sleep((long) (interval*1000)); // 1000 because of sleep() takes milliseconds.   
+                Thread.sleep((long) (interval*1000*factor)); // 1000 because of sleep() takes milliseconds.   
                 stopwatch+=interval;
+                
                 //release the new process to the ready queue
                 readyQueue.enqueue(process);
+                readyQueue.dislayEnqueue(0, process);
                 
                 System.out.println("a new process "+process.getName()+" is added to the ready Queue at "+stopwatch+"s");
             

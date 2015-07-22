@@ -1,6 +1,4 @@
 package computer;
-
-
 import Processes.Process;
 import app.OSGUI;
 /**
@@ -10,6 +8,10 @@ import app.OSGUI;
 public class CPU {
       private Process runningProcess;
       OSGUI gui;
+
+    public OSGUI getGui() {
+        return gui;
+    }
       
     public CPU(OSGUI gui) {
        this.gui = gui;
@@ -26,14 +28,14 @@ public class CPU {
         this.runningProcess = process;
     }
     
-    public void execute(double nextCPUtime, Process process){
+    public void execute(int nextCPUtime, Process process){
         runningProcess.runProcess(nextCPUtime);
         
         
         
-        gui.Display(process.getName(), (int) nextCPUtime);
-        System.out.println(process.getName() + "*************************"+ (int)nextCPUtime);
-        //chankasClass.CPUgrid.StartColoring(process.name);
+        gui.display(process.getName(), (int) nextCPUtime, process.getArrivalTime(),process.getServiceTime(),process.getRemainingServiceTime());
+        //System.out.println(process.getName() + "*************************"+ (int)nextCPUtime);
+        
     }
     public Process preempt(){
         return runningProcess;

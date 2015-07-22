@@ -21,7 +21,7 @@ import java.util.ArrayList;
  * @author Malith
  */
 public class CPUsheduler {
-       public double stopwatch = 0;
+       public int stopwatch = 0;
     public CPUsheduler() {
         stopwatch = 0;
        
@@ -50,9 +50,9 @@ public class CPUsheduler {
       
     
         // start the Long Time Sheduler thread
-        Thread lts = new Thread(new LTS(processList, mainMemmory, stopwatch));
-        Thread sts = new Thread(new STS(processList, cpu, mainMemmory, stopwatch));
-        Thread ioHandler = new Thread(new IOhandler(mainMemmory, stopwatch));
+        Thread lts = new Thread(new LTS(processList, mainMemmory, stopwatch,1));
+        Thread sts = new Thread(new STS(processList, cpu, mainMemmory, stopwatch,1));
+        Thread ioHandler = new Thread(new IOhandler(mainMemmory, stopwatch,1));
         
         lts.start();
         sts.start();
@@ -69,11 +69,11 @@ public class CPUsheduler {
         
     }
 
-    public synchronized double getStopwatch() {
+    public synchronized int getStopwatch() {
         return stopwatch;
     }
 
-    public synchronized void setStopwatch(double stopwatch) {
+    public synchronized void setStopwatch(int stopwatch) {
         this.stopwatch = stopwatch;
     }
     

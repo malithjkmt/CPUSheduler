@@ -1,9 +1,8 @@
 package computer;
 
+import app.OSGUI;
 
-import Processes.Process;
-import java.util.PriorityQueue;
-import java.util.Queue;
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -21,10 +20,16 @@ public class MainMemmory {
     private ProcessQueue Auxiliary = null;
     private  ProcessQueue IoWaiting = null;
 
+    // this can be removed later
     public MainMemmory() {
         this.readyQueue = new ProcessQueue();
         this.Auxiliary  = new ProcessQueue();
         this.IoWaiting  = new ProcessQueue();
+    }
+    public MainMemmory(OSGUI osgui) {
+        this.readyQueue = new ProcessQueue(osgui);
+        this.Auxiliary  = new ProcessQueue(osgui);
+        this.IoWaiting  = new ProcessQueue(osgui);
     }
 
   /*  public synchronized void EnqueueToReadyQueue(Process process){

@@ -8,6 +8,7 @@ package Sheduler;
 import computer.ProcessQueue;
 import Processes.Process;
 import computer.MainMemmory;
+
 /**
  *
  * @author Malith
@@ -16,42 +17,50 @@ public class IOhandler implements Runnable{
     ProcessQueue readyQueue;
     ProcessQueue IoWaiting;
     ProcessQueue auxiliary;
-    
-    double stopwatch;
+    int factor = 1;
+    int stopwatch;
     Process chosenProcess;
-    double blockingPeriod;
+    int blockingPeriod;
     
 
-    public IOhandler(MainMemmory mainMemmory, double stopwatch) {
+    public IOhandler(MainMemmory mainMemmory, int stopwatch, int factor) {
         this.readyQueue = mainMemmory.getReadyQueue();
         this.IoWaiting = mainMemmory.getIoWaiting();
         this.auxiliary = mainMemmory.getAuxiliary();
         
         this.stopwatch = stopwatch;
-        
+        this.factor = factor;
     }
     
-    
+   
     
     @Override
     public void run() {
         while(true){
             
             if(!IoWaiting.isEmpty()){
+                
                  chosenProcess = IoWaiting.dequeue();
+                
+                 
                 blockingPeriod = chosenProcess.getIOCostTime();
+                // when there are more than one process in the IO queue -- ERRor!!!!!!!!!!!!!!!!!!!!!!!
                 
                  // wait until IOrequest complete
                 try {
-                    Thread.sleep((long) (blockingPeriod*1000)); // 1000 because of sleep() takes milliseconds.              
+                    Thread.sleep((long) (blockingPeriod*1000*factor)); // 1000 because of sleep() takes milliseconds.              
 
                 } catch (InterruptedException ex) {
                     System.out.println("interrupted"); //continue sending new processes to the ready queue
                 } 
-               
+                IoWaiting.displayDequeue(2, chosenProcess);
+                
+                
                 // transfer the IO request gained process to the ready queue
                // readyQueue.enqueue(chosenProcess);
                 auxiliary.enqueue(chosenProcess);
+                auxiliary.dislayEnqueue(1, chosenProcess);
+                
                 System.out.println("the blocked process "+chosenProcess.getName()+" is sent to the Auxiliary queue at "+stopwatch+"s");
             }
             else{}

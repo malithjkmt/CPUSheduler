@@ -32,157 +32,55 @@
                       <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="label1_1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label1_1" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label1_2" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label1_3" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_4" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label1_4" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_5" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label1_5" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_6" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label1_6" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_7" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label1_7" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_8" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_9" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_10" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_11" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_12" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_13" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_14" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_15" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_16" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_17" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_18" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_19" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_20" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_21" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_22" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_23" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_24" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label1_25" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label1_8" min="-2" pref="80" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="label3_1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label3_1" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label3_2" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label3_3" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_4" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label3_4" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_5" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label3_5" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_6" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label3_6" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_7" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label3_7" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_8" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_9" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_10" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_11" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_12" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_13" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_14" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_15" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_16" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_17" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_18" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_19" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_20" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_21" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_22" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_23" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_24" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label3_25" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label3_8" min="-2" pref="80" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="label2_1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label2_1" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label2_2" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label2_3" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_4" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label2_4" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_5" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label2_5" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_6" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label2_6" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_7" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label2_7" min="-2" pref="80" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_8" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_9" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_10" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_11" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_12" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_13" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_14" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_15" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_16" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_17" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_18" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_19" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_20" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_21" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_22" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_23" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_24" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="label2_25" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="label2_8" min="-2" pref="80" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -198,281 +96,328 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txt1" max="32767" attributes="0"/>
+                          <Component id="txt2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt5" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
+                              <Component id="jLabel_1" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_2" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_3" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_4" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_5" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_6" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_7" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_8" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_9" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_10" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_11" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_12" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_13" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_14" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_15" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_16" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_17" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_18" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_19" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_20" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_21" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_22" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_23" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_24" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jLabel_25" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jpb4_1" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_2" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_3" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_4" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_5" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_6" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_7" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_8" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_9" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_10" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_11" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_12" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_13" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_14" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_15" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_16" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_17" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_18" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_19" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_20" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_21" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_22" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_23" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_24" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb4_25" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jpb2_1" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_2" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_3" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_4" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_5" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_6" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_7" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_8" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_9" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_10" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_11" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_12" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_13" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_14" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_15" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_16" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_17" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_18" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_19" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_20" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_21" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_22" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_23" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_24" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb2_25" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jpb1_1" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb1_2" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb1_3" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb1_4" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb1_5" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb1_6" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="txt1" pref="50" max="32767" attributes="0"/>
-                                  <Component id="txt2" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="txt3" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="txt4" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="txt5" alignment="0" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jpb4_1" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_7" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_2" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_8" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_3" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_9" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_4" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_10" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_5" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_11" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_6" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_12" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_7" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_13" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_8" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_14" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_9" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_15" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_10" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_16" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_11" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_17" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_12" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_18" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_13" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_19" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_14" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_20" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_15" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_21" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_16" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_22" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_17" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_23" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_18" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_24" min="-2" pref="40" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_19" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_20" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_21" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_22" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_23" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_24" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb4_25" min="-2" pref="40" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jpb2_1" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_2" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_3" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_4" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_5" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_6" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_7" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_8" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_9" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_10" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_11" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_12" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_13" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_14" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_15" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_16" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_17" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_18" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_19" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_20" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_21" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_22" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_23" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_24" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb2_25" min="-2" pref="40" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jpb1_1" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb1_2" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb1_3" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb1_4" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb1_5" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb1_6" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <Component id="jpb1_7" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_8" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_9" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_10" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_11" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_12" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_13" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_14" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_15" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_16" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_17" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_18" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_19" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_20" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_21" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_22" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_23" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_24" min="-2" pref="40" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                              <Component id="jpb1_25" min="-2" pref="40" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jpb3_1" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_2" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_3" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_4" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_5" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_6" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_7" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_8" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_9" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_10" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_11" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_12" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_13" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_14" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_15" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_16" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_17" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_18" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_19" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_20" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_21" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_22" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_23" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_24" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb3_25" min="-2" pref="40" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jpb5_1" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_2" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_3" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_4" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_5" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_6" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_7" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_8" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_9" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_10" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_11" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_12" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_13" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_14" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_15" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_16" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_17" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_18" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_19" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_20" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_21" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_22" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_23" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_24" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="jpb5_25" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jpb1_25" min="-2" pref="40" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jpb3_1" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_2" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_3" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_4" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_5" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_6" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_7" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_8" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_9" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_10" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_11" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_12" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_13" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_14" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_15" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_16" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_17" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_18" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_19" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_20" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_21" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_22" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_23" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_24" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb3_25" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jpb5_1" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_2" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_3" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_4" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_5" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_6" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_7" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_8" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_9" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_10" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_11" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_12" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_13" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_14" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_15" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_16" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_17" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_18" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_19" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_20" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_21" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_22" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_23" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_24" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jpb5_25" min="-2" pref="40" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Component id="jScrollPane1" min="-2" pref="257" max="-2" attributes="0"/>
@@ -496,7 +441,34 @@
               <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="jLabel1" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel1" min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="jLabel_1" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_2" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_3" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_4" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_5" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_6" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_7" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_8" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_9" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_10" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_11" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_12" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_13" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_14" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_15" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_16" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_17" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_18" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_19" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_20" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_21" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_22" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_23" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_24" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel_25" min="-2" pref="10" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="2" attributes="0">
                           <Component id="jpb1_10" alignment="2" min="-2" pref="20" max="-2" attributes="0"/>
@@ -649,94 +621,43 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="label1_6" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_7" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_8" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_9" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_10" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_11" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_12" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_13" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_14" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_15" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_16" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_17" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_18" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_19" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_20" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_21" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_22" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_23" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_24" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_25" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="label1_6" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="label1_7" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="label1_8" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                   </Group>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="label1_1" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_2" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_3" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_4" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="label1_5" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="label1_1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="label1_2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="label1_3" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="label1_4" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="label1_5" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
               <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="label2_1" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_2" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_3" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_4" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_5" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_6" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_7" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_8" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_9" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_10" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_11" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_12" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_13" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_14" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_15" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_16" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_17" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_18" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_19" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_20" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_21" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_22" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_23" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_24" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label2_25" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="label2_1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label2_2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label2_3" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label2_4" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label2_5" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label2_6" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label2_7" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label2_8" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
               <Component id="jLabel64" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="label3_1" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_2" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_3" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_4" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_5" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_6" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_7" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_8" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_9" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_10" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_11" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_12" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_13" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_14" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_15" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_16" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_17" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_18" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_19" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_20" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_21" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_22" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_23" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_24" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="label3_25" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="label3_1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label3_2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label3_3" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label3_4" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label3_5" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label3_6" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label3_7" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="label3_8" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
@@ -747,224 +668,224 @@
     <Component class="javax.swing.JProgressBar" name="jpb1_1">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_2">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_3">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_4">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_5">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_6">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_7">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_8">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_9">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_10">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_11">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_13">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_14">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_12">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_15">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_16">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_1">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_2">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_3">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_4">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_5">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_6">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_7">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_8">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_9">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_10">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_11">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_12">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_13">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_14">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_15">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_16">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
@@ -1083,28 +1004,28 @@
     <Component class="javax.swing.JProgressBar" name="jpb4_1">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_3">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_2">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Times New Roman" size="18" style="0"/>
+          <Font name="Times New Roman" size="14" style="0"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Job Name"/>
@@ -1199,220 +1120,320 @@
     </Container>
     <Component class="javax.swing.JLabel" name="label1_1">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="01">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label1_2">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="02">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label1_3">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="03">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label1_4">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="04">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label1_5">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="05">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label1_6">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="06">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label1_7">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="07">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label1_8">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="08">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_9">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_10">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel22">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="2"/>
-        <Property name="text" type="java.lang.String" value="Ready Queue"/>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Labels/labels/RQ.png"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label2_1">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="01">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label2_2">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="02">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel43">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="2"/>
-        <Property name="text" type="java.lang.String" value="Auxiliary Queue"/>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Labels/labels/AQ.png"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label3_1">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="01">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label3_2">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="02">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label3_3">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="03">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel64">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="2"/>
-        <Property name="text" type="java.lang.String" value="IO Queue"/>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Labels/labels/IQ.png"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_17">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_18">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_19">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_20">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_21">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_22">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_23">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_24">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb1_25">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="33" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_17">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_18">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_19">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_20">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_21">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_22">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_23">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_24">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb2_25">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
@@ -1482,630 +1503,598 @@
     <Component class="javax.swing.JProgressBar" name="jpb4_4">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_5">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_6">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_7">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_8">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_9">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_10">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_11">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_12">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_13">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_14">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_15">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_16">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_17">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_18">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_19">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_20">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_21">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_22">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_23">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_24">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb4_25">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_1">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_2">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_3">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_4">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_5">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_6">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_7">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_8">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_9">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_10">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_11">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_12">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_13">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_14">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_15">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_16">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_17">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_18">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_19">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_20">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_21">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_22">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_23">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_24">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jpb5_25">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="33" green="33" red="ff" type="rgb"/>
+          <Color blue="33" green="ff" red="33" type="rgb"/>
         </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_11">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_12">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_13">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_14">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_15">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_16">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_17">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_18">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_19">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_20">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_21">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_22">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_23">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_24">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label1_25">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label2_3">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="03">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label2_4">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="04">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label2_5">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="05">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label2_6">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="06">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label2_7">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="07">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label2_8">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="08">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_9">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_10">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_11">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_12">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_13">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_14">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_15">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_16">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_17">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_18">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_19">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_20">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_21">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_22">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_23">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_24">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="label2_25">
-      <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label3_4">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="04">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label3_5">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="05">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label3_6">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="06">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label3_7">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="07">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="label3_8">
       <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="08">
+              <Font PropertyName="font" name="Tahoma" size="8" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
         <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_9">
+    <Component class="javax.swing.JLabel" name="jLabel_1">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="00"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_10">
+    <Component class="javax.swing.JLabel" name="jLabel_2">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="01"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_11">
+    <Component class="javax.swing.JLabel" name="jLabel_3">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="02"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_12">
+    <Component class="javax.swing.JLabel" name="jLabel_4">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="03"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_13">
+    <Component class="javax.swing.JLabel" name="jLabel_5">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="04"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_14">
+    <Component class="javax.swing.JLabel" name="jLabel_6">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="05"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_15">
+    <Component class="javax.swing.JLabel" name="jLabel_7">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="06"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_16">
+    <Component class="javax.swing.JLabel" name="jLabel_8">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="07"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_17">
+    <Component class="javax.swing.JLabel" name="jLabel_9">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="08"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_18">
+    <Component class="javax.swing.JLabel" name="jLabel_10">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="09"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_19">
+    <Component class="javax.swing.JLabel" name="jLabel_11">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="10"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_20">
+    <Component class="javax.swing.JLabel" name="jLabel_12">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="11"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_21">
+    <Component class="javax.swing.JLabel" name="jLabel_13">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="12"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_22">
+    <Component class="javax.swing.JLabel" name="jLabel_14">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="13"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_23">
+    <Component class="javax.swing.JLabel" name="jLabel_15">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="14"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_24">
+    <Component class="javax.swing.JLabel" name="jLabel_16">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="15"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="label3_25">
+    <Component class="javax.swing.JLabel" name="jLabel_17">
       <Properties>
-        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="16"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="17"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="18"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="19"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="20"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="21"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_23">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="22"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_24">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="23"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel_25">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="24"/>
       </Properties>
     </Component>
   </SubComponents>

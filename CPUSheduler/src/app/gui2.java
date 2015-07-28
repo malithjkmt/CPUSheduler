@@ -41,7 +41,7 @@ public class gui2 extends JFrame {
     int serviceTime;
     ArrayList<Process> processList=new ArrayList<Process>(); // Array list to store processes(jobs)
     int index = 0;// counter for process index
-    
+    int jobCount = 0;
     public gui2() {
         
         vbox = Box.createVerticalBox();
@@ -50,9 +50,11 @@ public class gui2 extends JFrame {
         k=1;
         serviceTime=0;
         initComponents();
-        wrningLbl.setVisible(false);
+        
         //jPanel1.add(new JTextField());
          pack();
+         setLocationRelativeTo(null);  // *** this will center the app ***
+         ATime.requestFocus();
     }
 
     /**
@@ -77,12 +79,12 @@ public class gui2 extends JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         TA = new javax.swing.JTextArea();
         jButton2 = new javax.swing.JButton();
-        wrningLbl = new javax.swing.JLabel();
         timeSlice = new javax.swing.JComboBox();
         jLabel1 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("CPU Sheduler 2015 Input Wizard");
         setMaximumSize(new java.awt.Dimension(725, 349));
         setResizable(false);
 
@@ -113,6 +115,7 @@ public class gui2 extends JFrame {
             }
         });
 
+        IATime.setToolTipText("after how much cpu burst time");
         IATime.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 IATimeFocusGained(evt);
@@ -141,11 +144,19 @@ public class gui2 extends JFrame {
             }
         });
 
+        IDTime.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                IDTimeFocusLost(evt);
+            }
+        });
         IDTime.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 IDTimeActionPerformed(evt);
             }
         });
+
+        jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
         TA.setEditable(false);
         TA.setColumns(20);
@@ -163,15 +174,12 @@ public class gui2 extends JFrame {
             }
         });
 
-        wrningLbl.setForeground(new java.awt.Color(255, 0, 0));
-        wrningLbl.setText("<html>This time <br> ");
-
         timeSlice.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26" }));
         timeSlice.setMaximumSize(new java.awt.Dimension(20, 20));
         timeSlice.setMinimumSize(new java.awt.Dimension(20, 20));
         timeSlice.setPreferredSize(new java.awt.Dimension(20, 20));
 
-        jLabel6.setText("<html>Time Slice: <br> (In seconds)");
+        jLabel6.setText("Time Slice: In seconds");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -184,70 +192,81 @@ public class gui2 extends JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jobLbl)
                         .addGap(36, 36, 36)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(ATime))
-                        .addGap(45, 45, 45)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(STime))
-                        .addGap(35, 35, 35)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(wrningLbl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(IATime))
+                                .addComponent(ATime, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(45, 45, 45)
+                                .addComponent(STime, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(35, 35, 35)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(IDTime, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                .addGap(18, 18, Short.MAX_VALUE)
+                                .addComponent(IATime, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(35, 35, 35)
+                                .addComponent(IDTime, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(21, 21, 21))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(timeSlice, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(62, 62, 62))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addGap(32, 32, 32)
+                                        .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addGap(26, 26, 26)
+                                        .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                .addGap(18, 18, 18)
+                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(AddBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(timeSlice, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(63, Short.MAX_VALUE))
+                        .addGap(18, 18, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(AddBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel1))
+                        .addContainerGap(20, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(64, 64, 64)
-                        .addComponent(AddBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(29, 29, 29)
+                        .addGap(16, 16, 16)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel6)
+                            .addComponent(timeSlice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(14, 14, 14)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel2)
                             .addComponent(jLabel3)
                             .addComponent(jLabel4)
                             .addComponent(jLabel5))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGap(12, 12, 12)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jobLbl)
                             .addComponent(ATime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(STime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(IATime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(IDTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(wrningLbl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(32, 32, 32)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(AddBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(24, 24, 24)))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
+                        .addGap(33, 33, 33)
                         .addComponent(jLabel1)
-                        .addGap(11, 11, 11)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(timeSlice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(109, 109, 109)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(110, 110, 110)
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap())))
         );
 
         pack();
@@ -258,6 +277,17 @@ public class gui2 extends JFrame {
     }//GEN-LAST:event_IDTimeActionPerformed
 
     private void AddBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddBtnActionPerformed
+        int timeQuanta = Integer.parseInt(timeSlice.getSelectedItem().toString());
+        
+        timeSlice.setEnabled(false); // desable the time slice selection
+        jobCount++;
+        // check the job count ( maximum is 5 )
+        if(jobCount>=5){
+            ATime.setEnabled(false);
+            STime.setEnabled(false);
+            IATime.setEnabled(false);
+            IDTime.setEnabled(false); 
+        }
         // TODO add your handling code here:
         try {
             if(!ATime.getText().equals("")){Integer.parseInt(ATime.getText());}
@@ -307,14 +337,13 @@ public class gui2 extends JFrame {
                 if(!IATime.getText().equals("")){
                     iat=Integer.parseInt(IATime.getText());//
                     idt=Integer.parseInt(IDTime.getText());//
-                    processList.add(new Process(at, st, 4,index,iat,idt));
+                    processList.add(new Process(at, st, timeQuanta ,index,iat,idt));
                     index++;
                 }
                 
-                //malith's code starts
-                //
+               
                 else{
-                processList.add(new Process(at, st, 4,index));
+                processList.add(new Process(at, st, timeQuanta ,index));
                 index++;
                 }
                 //
@@ -329,10 +358,17 @@ public class gui2 extends JFrame {
                }
             }
         }
+       
+        
         k=1;
         
         
-              
+       ATime.requestFocus();
+        if(jobCount>=5){
+          
+            JOptionPane.showMessageDialog(this, "The maximum allowed number of jobs has just reached! Please click \"Shedule\" to begin ", "CPU Sheduler", JOptionPane.INFORMATION_MESSAGE);
+            jButton2.requestFocus();
+        }
     }//GEN-LAST:event_AddBtnActionPerformed
 
     private void STimeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_STimeActionPerformed
@@ -345,18 +381,18 @@ public class gui2 extends JFrame {
 
     private void IATimeMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_IATimeMouseEntered
         // TODO add your handling code here:
-        wrningLbl.setVisible(true);
+       
         
     }//GEN-LAST:event_IATimeMouseEntered
 
     private void IATimeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_IATimeMouseClicked
         // TODO add your handling code here:
-        wrningLbl.setVisible(true);
+       
     }//GEN-LAST:event_IATimeMouseClicked
 
     private void IATimeMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_IATimeMouseExited
         // TODO add your handling code here:
-        wrningLbl.setVisible(false);
+        
     }//GEN-LAST:event_IATimeMouseExited
 
     private void IATimeMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_IATimeMouseReleased
@@ -368,13 +404,13 @@ public class gui2 extends JFrame {
     private void IATimeMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_IATimeMousePressed
         // TODO add your handling code here:
         System.out.println("pressed");
-        wrningLbl.setVisible(true);
+       
     }//GEN-LAST:event_IATimeMousePressed
 
     private void IATimeFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_IATimeFocusGained
         // TODO add your handling code here:
          System.out.println("focus");
-         wrningLbl.setVisible(true);
+        
     }//GEN-LAST:event_IATimeFocusGained
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -383,6 +419,10 @@ public class gui2 extends JFrame {
         osgui.setVisible(true);
         
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void IDTimeFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_IDTimeFocusLost
+        AddBtn.requestFocus();
+    }//GEN-LAST:event_IDTimeFocusLost
     
     /**
      * @param args the command line arguments
@@ -443,6 +483,5 @@ public class gui2 extends JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel jobLbl;
     private javax.swing.JComboBox timeSlice;
-    private javax.swing.JLabel wrningLbl;
     // End of variables declaration//GEN-END:variables
 }

@@ -21,21 +21,21 @@ import java.util.logging.Logger;
  */
 public class STS implements Runnable {
 
-    ArrayList<Process> processList;
+    ArrayList<Process> processList; //CONSIDER TO REMOVE THIS!!!!!!!!!!!
     CPU cpu;
 
     ProcessQueue readyQueue;
     ProcessQueue Auxiliary;
     ProcessQueue IoWaiting;
-    int factor = 1;
-    int stopwatch;
-    int queueIndex;
-    Process runningProcess = null;
+    int factor; // controlls the speed of the simulator(1= realtime -  2,3,4,5 makes it slower)
+    int stopwatch; // contains the current time of the simulator
+    int queueIndex; // index name of 3 queues (0=readyQueue, 1=AuxiliaryQueue, 2=IOWaitingQueue)
+    Process runningProcess = null; //CONSIDER TO REMOVE THIS!!!!!!!!!!!
 
-    Process chosenProcess = null;
-    Process preemptedProcess;
+    Process chosenProcess = null; // the process chosen to send in to the CPU
+    Process preemptedProcess; 
     Process blockedProcess;
-    int nextCPUtime;
+    int nextCPUtime; // time that the chosen process will be in the CPU ( equal or smaller than timeslice)
 
     public STS(ArrayList<Process> processList, CPU cpu, MainMemmory mainMemmory, int stopwatch, int factor) {
         this.processList = processList;
@@ -50,23 +50,25 @@ public class STS implements Runnable {
 
     @Override
     public void run() {
-        while (readyQueue.isEmpty()) {
-
-        }
+        while (readyQueue.isEmpty()) { } //wait until LTS sends a new process to the ready queue
+        
         while (true) {
-
+            
+            // If there isn't any process in ready or Auxiliary queue to dispatch into the CPU
             if (readyQueue.isEmpty() && Auxiliary.isEmpty()) {
                 try {
-                    cpu.getGui().skip();
-                    Thread.sleep(1000 * factor); // 1000 is the time slice
+                    cpu.getGui().skip(); // skip painting the current progressbar in the gui
+                    Thread.sleep(1000 * factor); 
                     stopwatch++;
-                    System.out.println("An empty time slice !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                    
                 } catch (InterruptedException ex) {
                     Logger.getLogger(STS.class.getName()).log(Level.SEVERE, null, ex);
                 }
+            
             } else {
 
                 System.out.println("");
+                // if there's a process in the Auxiliary queue, take it! (because we give priority to this queue over the ready queue)
                 if (!Auxiliary.isEmpty()) {
                     chosenProcess = Auxiliary.dequeue();
                     queueIndex = 1;
@@ -125,7 +127,7 @@ public class STS implements Runnable {
 
                     // add the preempted process in to the ready queue if there is remainig service time to do, else relese the process
                     if (preemptedProcess.getNextCPUtime(stopwatch) > 0) {
-                        if (!readyQueue.isEmpty()) {
+                        if (!readyQueue.isEmpty() || !Auxiliary.isEmpty()) {
                             readyQueue.dislayEnqueue(0, chosenProcess);
                         }
                         readyQueue.enqueue(preemptedProcess);

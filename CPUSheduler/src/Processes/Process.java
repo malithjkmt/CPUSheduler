@@ -101,27 +101,32 @@ public  class Process {
     
     //get the time period that the process will be in the CPU next
    public synchronized int getNextCPUtime(int stopwatch){
+       
+       // if a process has chosen from the Auxiliary queue
         if(timeSlice != initialTimeSlice){
             setIOhappens(false);
             int temp = timeSlice;
             timeSlice = initialTimeSlice;
             return temp;
         }
+        
+        
         int timeSpent = stopwatch- arrivalTime; // (cpu burst + io burst)
         int DueTimeToIORequest = IORequestTime - totalCPUburst; // the remainig time before the IO request happens
-        
+        System.out.println(DueTimeToIORequest + ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+         // if the process will be blocked before being timeout
+        if(hasIOrequest && IORequestTime > totalCPUburst && DueTimeToIORequest <= timeSlice){// watchout when using auxiliry queue 
+            setIOhappens(true);
+            timeSlice = DueTimeToIORequest;
+            return DueTimeToIORequest;
+        }
         
         // if the process's service time is over in between the next timeslice
         if(remainingServiceTime<timeSlice){
             setIOhappens(false);//??? do I need this
             return remainingServiceTime;
         }
-        // if the process will be blocked before being timeout
-        if(hasIOrequest && IORequestTime > totalCPUburst && DueTimeToIORequest <= timeSlice){// watchout when using auxiliry queue 
-            setIOhappens(true);
-            timeSlice = DueTimeToIORequest;
-            return DueTimeToIORequest;
-        }
+ 
         else if(remainingServiceTime>0){
             setIOhappens(false);
             timeSlice = initialTimeSlice;
